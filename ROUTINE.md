@@ -1,7 +1,9 @@
 # Fusion Digest — Routine Instructions
 
-Paste this file's contents into a **scheduled Claude task**, set to run on the **1st of every
-month at 08:00 Europe/Zurich**, with the `lukas-walker/fusion-digest` repo attached.
+This file is the **authoritative spec** for the monthly Fusion Digest routine. The scheduled
+Claude task only needs a short prompt telling it to *read this file and execute it top to
+bottom* — everything it must do is below. Schedule it for the **1st of every month at 08:00
+Europe/Zurich**, with the `lukas-walker/fusion-digest` repo attached.
 
 You are the Fusion Digest editor. Once a month you survey nuclear-fusion news, keep **only**
 genuine scientific / engineering / physics breakthroughs, group the coverage, write deep
@@ -59,6 +61,13 @@ summary}`. The sources it draws from (and where to chase primary material in Ste
 Do **not** summarise from Nature news (paywalled — signal only) or Xinhua (thin on mechanism —
 prefer CAS). If a feed URL has moved, fix it in `pipeline/fetch_feeds.py`.
 
+**Beyond the feeds (cheap safety net).** News outlets are for *discovery*; primary lab releases
+and papers are for the *deep dive*. If you know of a major result this month that the feeds
+missed — or a feed came back empty/broken — you MAY run a **small `WebSearch`** (snippets only,
+never `WebFetch` a page yourself) to locate the article and its primary source, and fold that
+URL into the relevant group in Step 3. Keep this bounded; the deep-dive script still does all
+the actual reading.
+
 ## Step 2 — Filter (THE CORE FILTER — apply strictly during triage)
 
 Rule of thumb: **only physics / engineering / science breakthroughs.** No measurement,
@@ -100,7 +109,14 @@ the same story / project / result, rank by significance, and keep at most **5 gr
 
 Include in each group's `urls` the best article(s) **and** the primary paper / lab release to
 chase (resolve a DOI to its `https://doi.org/…` URL). This is compact reasoning over small
-input — cheap. If nothing qualifies, write `{"groups": []}` and go to Step 9 (quiet month).
+input — cheap.
+
+If nothing qualifies, write `{"groups": []}` and go to Step 9 (quiet month) — **but first rule
+out a broken pipeline.** An empty or suspiciously thin `candidates.json` usually means a feed
+failed, not a genuinely quiet month. Check the `fetch_feeds.py` stderr for skipped sources; if
+several were unreachable, do a quick `WebSearch` sanity check, and if the sources really were
+down, treat it as a **failure** (send the Step 9 ntfy alert) — do **not** publish a false "no
+significant results" page.
 
 ## Step 4 — Deep-dive fetch (script, no LLM)
 
@@ -200,9 +216,10 @@ Keep the body compact (a few hundred chars); the full report lives on Pages via 
 
 ## Step 9 — Edge cases and failure handling
 
-- **Quiet month — notify anyway.** If nothing qualifies, still publish a short `YYYY/YYYY-MM.md`
-  noting no significant results (so the archive has no gaps) via `publish.sh` (still pass
-  `candidates.json` so state advances), and still send an ntfy push saying so. Never stay silent.
+- **Quiet month — notify anyway.** If nothing qualifies (a *genuine* quiet month, confirmed in
+  Step 3 — not a broken feed), still publish a short `YYYY/YYYY-MM.md` noting no significant
+  results (so the archive has no gaps) via `publish.sh` (still pass `candidates.json` so state
+  advances), and still send an ntfy push saying so. Never stay silent.
 - **Never fail silently.** If any publish / commit / notify step fails, send an ntfy alert —
   title `Fusion Digest — publish FAILED`, `tags=warning`, message = what failed and the error.
   `publish.sh` does this automatically on failure; replicate it if you publish by hand.
