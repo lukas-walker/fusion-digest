@@ -18,5 +18,5 @@ PR are excluded. See **[ROUTINE.md](ROUTINE.md)** for the full editorial specifi
 ## Editions
 
 <!-- DIGESTS:START -->
-_No editions published yet._
+- [July 2026](2026/2026-07.html) — JET's final D-T campaign sets a 69 MJ fusion energy record; ITER two-thirds assembled; EAST widens I-mode's density window
 <!-- DIGESTS:END -->

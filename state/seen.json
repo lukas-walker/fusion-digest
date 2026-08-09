@@ -1,1 +1,652 @@
-{}
+{
+ "24728d3d56c079b7": {
+  "url": "https://phys.org/news/2026-08-tiny-particles-defy-action-reaction.html",
+  "title": "Tiny particles defy action-reaction symmetry to stay in motion",
+  "first_seen": "2026-08-09"
+ },
+ "336bfdbe0c48a732": {
+  "url": "https://phys.org/news/2026-08-flying-focus-laser-key-limitation.html",
+  "title": "'Flying focus' laser overcomes key limitation in plasma-based particle accelerators",
+  "first_seen": "2026-08-09"
+ },
+ "9e892985260e31ec": {
+  "url": "https://phys.org/news/2026-08-laser-spectroscopy-reveal-hidden-nuclear.html",
+  "title": "Laser spectroscopy helps reveal hidden nuclear properties in fermium",
+  "first_seen": "2026-08-09"
+ },
+ "577da397af75ba45": {
+  "url": "https://phys.org/news/2026-08-shifting-architecture-versatility-photonic-quantum.html",
+  "title": "New 'shape-shifting' architecture brings versatility to photonic quantum computing",
+  "first_seen": "2026-08-09"
+ },
+ "58530eb5ca9ea338": {
+  "url": "https://phys.org/news/2026-08-mirror-world-particles-wisps-fog.html",
+  "title": "Crossing into a mirror world: Particles turn to wisps of fog, and the magnetic monopole paradox dissolves",
+  "first_seen": "2026-08-09"
+ },
+ "c61767e1c454397c": {
+  "url": "https://phys.org/news/2026-08-tiny-magnet-ultrafaint-magnetic-fields.html",
+  "title": "Tiny floating magnet detects ultrafaint magnetic fields at room temperature",
+  "first_seen": "2026-08-09"
+ },
+ "226dbc50e19f0a63": {
+  "url": "https://phys.org/news/2026-08-boron-layers-superconductivity-theoretical.html",
+  "title": "Boron layers could set a superconductivity record, theoretical study predicts",
+  "first_seen": "2026-08-09"
+ },
+ "03856434b1b3172c": {
+  "url": "https://phys.org/news/2026-08-physicists-material-electrons-reassemble-coexisting.html",
+  "title": "Physicists watch a material's electrons assemble, and reassemble, into coexisting phases",
+  "first_seen": "2026-08-09"
+ },
+ "a826aed7e1daac97": {
+  "url": "https://phys.org/news/2026-08-xenonnt-detector-narrows-dark.html",
+  "title": "XENONnT detector narrows the hunt for dark matter",
+  "first_seen": "2026-08-09"
+ },
+ "b54e2f2e0624bc20": {
+  "url": "https://www.world-nuclear-news.org/articles/water-levels-to-be-increased-in-zaporizhzhias-used-fuel-ponds",
+  "title": "Water levels to be increased in Zaporizhzhia's used fuel pools",
+  "first_seen": "2026-08-09"
+ },
+ "3fe3c055eed4e6b8": {
+  "url": "https://www.world-nuclear-news.org/articles/newcleo-sets-out-plan-for-licensing-of-us-mox-plant",
+  "title": "Newcleo sets out plan for licensing of US MOX plant",
+  "first_seen": "2026-08-09"
+ },
+ "bd4a7af5ce4d7f33": {
+  "url": "https://www.world-nuclear-news.org/articles/indian-parliamentarians-stress-urgency-for-uranium-projects",
+  "title": "Indian parliamentarians stress urgency for uranium projects",
+  "first_seen": "2026-08-09"
+ },
+ "1b101c1bde092d8b": {
+  "url": "https://www.world-nuclear-news.org/articles/us-collaboration-to-study-used-nuclear-fuel-recycling",
+  "title": "US collaboration to study used nuclear fuel recycling",
+  "first_seen": "2026-08-09"
+ },
+ "8159d2a22cd1c997": {
+  "url": "https://phys.org/news/2026-08-elegant-modification-range-noise-white.html",
+  "title": "An elegant modification doubles the range of low-noise 'white lasers' in a single fiber",
+  "first_seen": "2026-08-09"
+ },
+ "e0648377824fa0e5": {
+  "url": "https://phys.org/news/2026-08-fully-solution-solid-state-polariton.html",
+  "title": "Researchers demonstrate first fully solution-processed solid-state polariton laser",
+  "first_seen": "2026-08-09"
+ },
+ "224c271e72882e99": {
+  "url": "https://phys.org/news/2026-08-woven-naturally-crystal.html",
+  "title": "Never-before-seen woven structure that forms naturally inside a crystal discovered",
+  "first_seen": "2026-08-09"
+ },
+ "27e03b88e48abc72": {
+  "url": "https://phys.org/news/2026-08-shot-phase-imaging-technique-reconstruct.html",
+  "title": "Single-shot phase imaging technique can reconstruct transparent objects",
+  "first_seen": "2026-08-09"
+ },
+ "9bc19a684616949e": {
+  "url": "https://phys.org/news/2026-08-quantum-microscopy-quadruples-microscope-resolution.html",
+  "title": "New quantum microscopy trick quadruples microscope resolution",
+  "first_seen": "2026-08-09"
+ },
+ "a8072e90f12ce16d": {
+  "url": "https://phys.org/news/2026-08-x2370-emerges-glueball-dominated-particle.html",
+  "title": "X(2370) emerges as glueball-dominated particle in collider experiments",
+  "first_seen": "2026-08-09"
+ },
+ "5948f3b9f0d20b0d": {
+  "url": "https://phys.org/news/2026-08-qubit-entangling-gate-flags-errors.html",
+  "title": "Two-qubit entangling gate flags its own errors as detectable photon losses",
+  "first_seen": "2026-08-09"
+ },
+ "73e7e37200be49bb": {
+  "url": "https://phys.org/news/2026-08-sunlight-powered-setup-generates-quantum.html",
+  "title": "Sunlight-powered setup generates quantum entanglement",
+  "first_seen": "2026-08-09"
+ },
+ "c354c7d123e0b760": {
+  "url": "https://phys.org/news/2026-08-repurposing-deep-earth-tools-superconductors.html",
+  "title": "Repurposing deep-Earth tools in the hunt for practical superconductors",
+  "first_seen": "2026-08-09"
+ },
+ "113d5ed8c97bf5df": {
+  "url": "https://www.world-nuclear-news.org/articles/bechtel-assumes-responsibility-for-polish-plant-site",
+  "title": "Bechtel assumes responsibility for Polish plant site",
+  "first_seen": "2026-08-09"
+ },
+ "09fad639c4eb1bee": {
+  "url": "https://www.world-nuclear-news.org/articles/us-test-reactors-achieve-milestones",
+  "title": "US test reactors achieve milestones",
+  "first_seen": "2026-08-09"
+ },
+ "8ace00589373c032": {
+  "url": "https://www.world-nuclear-news.org/articles/isoenergy-and-disa-to-create-new-us-uranium-company",
+  "title": "IsoEnergy and DISA to create new US uranium company",
+  "first_seen": "2026-08-09"
+ },
+ "7fd0c852fc49c316": {
+  "url": "https://www.world-nuclear-news.org/articles/x-energy-and-centrus-sign-haleu-supply-agreement",
+  "title": "X-Energy and Centrus sign HALEU supply agreement",
+  "first_seen": "2026-08-09"
+ },
+ "875ab34b115428ec": {
+  "url": "https://www.world-nuclear-news.org/articles/nwmo-reveals-design-for-centre-of-expertise",
+  "title": "NWMO reveals design for Centre of Expertise",
+  "first_seen": "2026-08-09"
+ },
+ "98ebcaa8453a3b62": {
+  "url": "https://arxiv.org/abs/2608.05669v1",
+  "title": "SafeDivertor: Faithful Divertor Heat Flux Reconstruction from Macroscopic Plasma State Signals via Time-Frequency Prior Exploitation",
+  "first_seen": "2026-08-09"
+ },
+ "87b21fe110113a75": {
+  "url": "https://arxiv.org/abs/2608.05555v1",
+  "title": "Millisecond-Scale Neural Operator Surrogates for Double-Null Free-Boundary Grad-Shafranov Equilibria",
+  "first_seen": "2026-08-09"
+ },
+ "d433066f0d0c94e5": {
+  "url": "https://phys.org/news/2026-08-miniaturized-laser-technology-paves-fundamental.html",
+  "title": "Miniaturized laser technology paves the way for fundamental physics experiments in space",
+  "first_seen": "2026-08-09"
+ },
+ "55cce304d28b35ab": {
+  "url": "https://phys.org/news/2026-08-air-stable-ultrathin-superconductors-scalable.html",
+  "title": "Air-stable, ultrathin superconductors developed for more scalable quantum devices",
+  "first_seen": "2026-08-09"
+ },
+ "c533c7df2ba9cbe2": {
+  "url": "https://phys.org/news/2026-08-attosecond-ray-method-early-electron.html",
+  "title": "Attosecond X-ray method maps early electron motions that trigger chemical reactions",
+  "first_seen": "2026-08-09"
+ },
+ "7e344e891a0cf7ae": {
+  "url": "https://phys.org/news/2026-08-spooky-particles-transit-dc-suburbs.html",
+  "title": "'Spooky' particles transit DC suburbs, a step toward a quantum network",
+  "first_seen": "2026-08-09"
+ },
+ "c4156be7154eee0d": {
+  "url": "https://phys.org/news/2026-08-semiconductor-maser-room-temperature.html",
+  "title": "New semiconductor maser operates continuously above room temperature",
+  "first_seen": "2026-08-09"
+ },
+ "d4b2e125d769ae7d": {
+  "url": "https://phys.org/news/2026-08-earth-magnetic-field-axions-dark.html",
+  "title": "Using the Earth's magnetic field to hunt for axions and dark photons",
+  "first_seen": "2026-08-09"
+ },
+ "0ef16ab8ff3865fb": {
+  "url": "https://phys.org/news/2026-08-electric-field-reverses-phonon-chirality.html",
+  "title": "Electric field reverses phonon chirality and spin direction in ferroelectric crystal",
+  "first_seen": "2026-08-09"
+ },
+ "894e8bdaac05a5e3": {
+  "url": "https://phys.org/news/2026-08-tiny-vortices-sun-surface.html",
+  "title": "Tiny vortices discovered on the sun's surface",
+  "first_seen": "2026-08-09"
+ },
+ "7dfee285f9546004": {
+  "url": "https://www.world-nuclear-news.org/articles/core-catcher-installed-at-leningrads-eighth-unit",
+  "title": "Core catcher installed at Leningrad's eighth unit",
+  "first_seen": "2026-08-09"
+ },
+ "b794bd07b9dbea2b": {
+  "url": "https://www.world-nuclear-news.org/articles/khnp-aboitizpower-to-cooperate-on-nuclear-energy",
+  "title": "KHNP, AboitizPower to cooperate on nuclear energy",
+  "first_seen": "2026-08-09"
+ },
+ "6d5ae0d0a33244dd": {
+  "url": "https://www.world-nuclear-news.org/articles/entergy-to-consider-deployment-of-holtecs-smr-300",
+  "title": "Entergy to consider deployment of Holtec's SMR-300",
+  "first_seen": "2026-08-09"
+ },
+ "13f53619631cb7ea": {
+  "url": "https://www.world-nuclear-news.org/articles/tianwan-8-completes-key-commissioning-tests",
+  "title": "Tianwan 8 completes key commissioning tests",
+  "first_seen": "2026-08-09"
+ },
+ "63ef34fdff2b972e": {
+  "url": "https://www.world-nuclear-news.org/articles/fresh-10-year-decommissioning-licence-issued-for-kozloduy-3-and-4",
+  "title": "Fresh 10-year decommissioning licence issued for Kozloduy 3 and 4",
+  "first_seen": "2026-08-09"
+ },
+ "66ee5801f67a6336": {
+  "url": "https://euro-fusion.org/eurofusion-news/jets-final-fusion-campaigns-set-a-new-energy-record-and-hand-iter-a-legacy-of-irreplaceable-data/",
+  "title": "JET’s final fusion campaigns set a new energy record and hand ITER a legacy of irreplaceable data",
+  "first_seen": "2026-08-09"
+ },
+ "854f556a933b24ba": {
+  "url": "https://arxiv.org/abs/2608.04517v1",
+  "title": "On the relationship between the gain of Stimulated Raman Backscatter of a short-pulse laser in a plasma and the Pierce parameter for XFELs",
+  "first_seen": "2026-08-09"
+ },
+ "7eaa625af771acb8": {
+  "url": "https://phys.org/news/2026-08-molecular-orbitals-imaged-3d-path.html",
+  "title": "Molecular orbitals imaged in 3D, opening path to femtosecond videos",
+  "first_seen": "2026-08-09"
+ },
+ "5958f5223aed4f03": {
+  "url": "https://phys.org/news/2026-08-quantum-fluid-reveals-hidden-states.html",
+  "title": "Quantum fluid reveals hidden states that can be switched with a magnetic field",
+  "first_seen": "2026-08-09"
+ },
+ "2be76464f251f1a8": {
+  "url": "https://phys.org/news/2026-08-temperature-dial-realistic-quantum-simulations.html",
+  "title": "A temperature dial for more realistic quantum simulations",
+  "first_seen": "2026-08-09"
+ },
+ "ed02756ee7a56569": {
+  "url": "https://phys.org/news/2026-08-antineutrinos-spent-nuclear-fuel-emissions.html",
+  "title": "First measurement of antineutrinos from spent nuclear fuel confirms emissions persist after reactor shutdown",
+  "first_seen": "2026-08-09"
+ },
+ "0d32fa528e738bfc": {
+  "url": "https://www.world-nuclear-news.org/articles/greek-ministers-to-examine-nuclear-energy-options",
+  "title": "Greek ministers to examine nuclear energy options",
+  "first_seen": "2026-08-09"
+ },
+ "9267f97a1ab167ae": {
+  "url": "https://www.world-nuclear-news.org/articles/bwxt-sells-medical-business-for-usd800-million",
+  "title": "BWXT sells medical business for USD800 million",
+  "first_seen": "2026-08-09"
+ },
+ "76766dcdabeb6e50": {
+  "url": "https://www.world-nuclear-news.org/articles/westinghouse-and-amentum-sign-ap1000ap300-collaboration_agreements",
+  "title": "Westinghouse and Amentum sign AP1000/AP300 collaboration agreements",
+  "first_seen": "2026-08-09"
+ },
+ "43d77622cbeba7c8": {
+  "url": "https://www.world-nuclear-news.org/articles/mid-year-updates-from-major-uranium-producers",
+  "title": "Mid-year updates from major uranium producers",
+  "first_seen": "2026-08-09"
+ },
+ "e44ddba524620eda": {
+  "url": "https://www.world-nuclear-news.org/articles/finnish-regulator-gives-positive-decision-on-used-fuel-repository",
+  "title": "Finnish regulator gives positive decision on used fuel repository",
+  "first_seen": "2026-08-09"
+ },
+ "dc9660fa17e69d10": {
+  "url": "https://arxiv.org/abs/2608.03122v1",
+  "title": "Quasi-single-stage optimization for advanced stellarators",
+  "first_seen": "2026-08-09"
+ },
+ "96b67d96248cd0c6": {
+  "url": "https://physicsworld.com/a/nuclear-fusion-persists-at-ultralow-energies-inside-metal-foils/",
+  "title": "Nuclear fusion persists at ultralow energies inside metal foils",
+  "first_seen": "2026-08-09"
+ },
+ "45ef5fb4371edf92": {
+  "url": "https://www.world-nuclear-news.org/articles/arc-partners-with-inl-for-smr-deployment",
+  "title": "ARC partners with INL for SMR deployment",
+  "first_seen": "2026-08-09"
+ },
+ "f74afbc9f4e70409": {
+  "url": "https://www.world-nuclear-news.org/articles/dominion-keeps-options-open-for-north-anna",
+  "title": "Dominion keeps options open for North Anna new build",
+  "first_seen": "2026-08-09"
+ },
+ "88c98817a851b203": {
+  "url": "https://www.world-nuclear-news.org/articles/chinese-reactors-start-up-milestones",
+  "title": "New Chinese reactors reach start-up milestones",
+  "first_seen": "2026-08-09"
+ },
+ "e89243fa0c26d841": {
+  "url": "https://www.world-nuclear-news.org/articles/china-approves-construction-of-eight-more-reactors",
+  "title": "China approves construction of eight more reactors",
+  "first_seen": "2026-08-09"
+ },
+ "a11017a9d18834a0": {
+  "url": "https://www.world-nuclear-news.org/articles/commonwealth-fusion-systems-raises-a-further-usd1-billion",
+  "title": "Commonwealth Fusion Systems raises a further USD1 billion",
+  "first_seen": "2026-08-09"
+ },
+ "54748ce30cacd380": {
+  "url": "https://arxiv.org/abs/2608.02763v1",
+  "title": "Radial transport of electric current by electromagnetic microturbulence in tokamaks",
+  "first_seen": "2026-08-09"
+ },
+ "4e20c2a6d0b62d7f": {
+  "url": "https://arxiv.org/abs/2608.02418v2",
+  "title": "Direct Optimization of Stellarator Omnigenity from the Second Adiabatic Invariant",
+  "first_seen": "2026-08-09"
+ },
+ "c266ee0783c9d64c": {
+  "url": "https://arxiv.org/abs/2608.02121v1",
+  "title": "Hybrid Kinetic-MHD Simulations of Drift-Orbit Effects on the Stability and Non-Linear Dynamics of Runaway Electron Beams",
+  "first_seen": "2026-08-09"
+ },
+ "46130b7aa275b0da": {
+  "url": "https://arxiv.org/abs/2608.01750v1",
+  "title": "AGNI: A differentiable MHD stability solver & optimizer for magnetic confinement fusion devices",
+  "first_seen": "2026-08-09"
+ },
+ "39ff3b2cb1477082": {
+  "url": "https://arxiv.org/abs/2608.01232v1",
+  "title": "Two-fluid boundary turbulence simulations in reversed field pinch plasmas",
+  "first_seen": "2026-08-09"
+ },
+ "c09b652f0b7ee3ee": {
+  "url": "https://www.world-nuclear-news.org/articles/iaea-canadian-university-collaborate-on-nuclear-education",
+  "title": "IAEA, Canadian university collaborate on nuclear education",
+  "first_seen": "2026-08-09"
+ },
+ "36de696d34d33620": {
+  "url": "https://www.world-nuclear-news.org/articles/site-preparations-under-way-for-planned-kola-units",
+  "title": "Site preparations under way for planned Kola units",
+  "first_seen": "2026-08-09"
+ },
+ "34f870dfb37e3c4c": {
+  "url": "https://www.world-nuclear-news.org/articles/cameco-announces-go-public-plans-for-westinghouse",
+  "title": "Cameco announces IPO plan for Westinghouse",
+  "first_seen": "2026-08-09"
+ },
+ "fd40a6645ed923ee": {
+  "url": "https://www.world-nuclear-news.org/articles/podcast-the-making-of-the-world-nuclear-investment-guide",
+  "title": "Podcast: Why is the World Nuclear Investment Guide needed?",
+  "first_seen": "2026-08-09"
+ },
+ "ab21924c957774bf": {
+  "url": "https://www.world-nuclear-news.org/articles/in-pictures-iter-tokamak-core-assembly-progressing",
+  "title": "In pictures: ITER tokamak core assembly progressing",
+  "first_seen": "2026-08-09"
+ },
+ "82e13792b3381b30": {
+  "url": "https://www.world-nuclear-news.org/articles/danubes-record-low-leads-to-hungary-romania-nuclear-shutdowns",
+  "title": "Danube's record low leads to Hungary, Romania nuclear shutdowns",
+  "first_seen": "2026-08-09"
+ },
+ "7dabfe50b01e953e": {
+  "url": "https://www.world-nuclear-news.org/articles/serbia-and-france-sign-nuclear-energy-partnership-agreement",
+  "title": "Serbia signs fresh nuclear programme agreement with EDF",
+  "first_seen": "2026-08-09"
+ },
+ "8a7f282f0c4ced33": {
+  "url": "https://www.world-nuclear-news.org/articles/chinese-helium-turbine-test-facility-completes-hot-testing",
+  "title": "Chinese helium turbine test facility completes hot testing",
+  "first_seen": "2026-08-09"
+ },
+ "e109ec0c030e88dd": {
+  "url": "https://www.world-nuclear-news.org/articles/progress-reported-on-shirondukuyskoye-deposit-tunnelling-operation",
+  "title": "Progress reported on Shirondukuyskoye deposit works",
+  "first_seen": "2026-08-09"
+ },
+ "1837f573fd7c2768": {
+  "url": "https://www.world-nuclear-news.org/articles/germany-coordinates-fusion-rd-efforts",
+  "title": "Germany coordinates fusion R&D efforts",
+  "first_seen": "2026-08-09"
+ },
+ "209864a7013b6340": {
+  "url": "https://arxiv.org/abs/2607.28189v1",
+  "title": "Effect of confinement anisotropy on particle transport and structural relaxation of finite dust clusters in complex plasma",
+  "first_seen": "2026-08-09"
+ },
+ "5142a5c454b7520d": {
+  "url": "https://www.world-nuclear-news.org/articles/five-potential-states-selected-to-host-us-nuclear-innovation-campuses",
+  "title": "Five potential states selected to host US nuclear innovation campuses",
+  "first_seen": "2026-08-09"
+ },
+ "93a2178eef5b45fe": {
+  "url": "https://www.world-nuclear-news.org/articles/mcdermott-to-support-dutch-deployment-of-rolls-royce-smr",
+  "title": "McDermott to support potential Dutch Rolls-Royce SMR projects",
+  "first_seen": "2026-08-09"
+ },
+ "2f4506290e2ed279": {
+  "url": "https://www.world-nuclear-news.org/articles/investment-guide-targets-nuclears-usd6-trillion-challenge",
+  "title": "Investment guide targets nuclear's USD6 trillion challenge",
+  "first_seen": "2026-08-09"
+ },
+ "f16f4c3b550f220e": {
+  "url": "https://www.world-nuclear-news.org/articles/construction-work-under-way-at-canadian-uranium-project",
+  "title": "Construction work under way at Canadian uranium project",
+  "first_seen": "2026-08-09"
+ },
+ "f2685c2c757fe61b": {
+  "url": "https://www.iter.org/sign-through-23-august",
+  "title": "Sign up through 23 August",
+  "first_seen": "2026-08-09"
+ },
+ "78886f47d663e870": {
+  "url": "https://www.iter.org/two-thirds-iter-tokamak-core-now-place",
+  "title": "Two-thirds of ITER tokamak core now in place",
+  "first_seen": "2026-08-09"
+ },
+ "f3e51e983ffe485c": {
+  "url": "https://www.iter.org/node/20687/15th-iter-international-school-concludes-china",
+  "title": "15th ITER International School concludes in China",
+  "first_seen": "2026-08-09"
+ },
+ "85111db6851ac97f": {
+  "url": "https://www.iter.org/node/20687/millions-data-points-one-successful-lift",
+  "title": "Millions of data points, one successful lift",
+  "first_seen": "2026-08-09"
+ },
+ "4f61c378e8509bef": {
+  "url": "https://www.iter.org/node/20687/applications-invited-joint-iter/asipp-postdoc-projects",
+  "title": "Applications invited for joint ITER/ASIPP postdoc projects",
+  "first_seen": "2026-08-09"
+ },
+ "b8e327d6431fee4b": {
+  "url": "https://arxiv.org/abs/2607.27127v1",
+  "title": "Divertor topology and vacuum vessel design for stellarators",
+  "first_seen": "2026-08-09"
+ },
+ "9849168f5883a18d": {
+  "url": "https://arxiv.org/abs/2607.27024v1",
+  "title": "Rotating mirror with all-directional pinch compressions - The beauty and simplicity in controlled nuclear fusion",
+  "first_seen": "2026-08-09"
+ },
+ "d69b541d63c73e0b": {
+  "url": "https://arxiv.org/abs/2607.26479v1",
+  "title": "Kinetic Optimization of Magnetic Mirror Confinement: Beyond Classical Loss-Cone Theory",
+  "first_seen": "2026-08-09"
+ },
+ "31abb52006b3dbb6": {
+  "url": "https://www.world-nuclear-news.org/articles/initiative-launched-to-bolster-italian-nuclear-supply-chain",
+  "title": "Initiative launched to bolster Italian nuclear supply chain",
+  "first_seen": "2026-08-09"
+ },
+ "2ff67f29080fdd09": {
+  "url": "https://www.world-nuclear-news.org/articles/edf-teams-up-with-technip-energies-for-epr2-delivery",
+  "title": "EDF teams up with Technip Energies for EPR2 delivery",
+  "first_seen": "2026-08-09"
+ },
+ "fb0d5799c868d5e6": {
+  "url": "https://www.world-nuclear-news.org/articles/peer-review-of-floating-nuclear-plant-ranks-it-on-par-with-russias-top-units",
+  "title": "Peer review of floating nuclear plant 'ranks it on par with Russia's top units'",
+  "first_seen": "2026-08-09"
+ },
+ "d96f6e5a3c3d8909": {
+  "url": "https://www.world-nuclear-news.org/articles/argentinas-nucleoelectrica-signs-mou-relating-to-life-extension-project-in-romania",
+  "title": "Argentina's Nucleoeléctrica signs MoU relating to life extension project in Romania",
+  "first_seen": "2026-08-09"
+ },
+ "0435c46cda939e72": {
+  "url": "https://www.world-nuclear-news.org/articles/radiant-and-nasa-awarded-us-haleu-allocations",
+  "title": "Radiant and NASA awarded US HALEU allocations",
+  "first_seen": "2026-08-09"
+ },
+ "15e3aa42419a997f": {
+  "url": "https://www.iter.org/node/20687/managing-iters-progress",
+  "title": "Managing ITER’s progress",
+  "first_seen": "2026-08-09"
+ },
+ "0122e1dc53ee6d6c": {
+  "url": "https://arxiv.org/abs/2607.26252v1",
+  "title": "Quasi-static transverse electric field driven electron acceleration in relativistic laser matter interaction",
+  "first_seen": "2026-08-09"
+ },
+ "9d561aa45818eb91": {
+  "url": "https://arxiv.org/abs/2607.25829v1",
+  "title": "Shear interaction and acceleration of a corotating stream detected by Parker Solar Probe",
+  "first_seen": "2026-08-09"
+ },
+ "69c8e506e3668a64": {
+  "url": "https://arxiv.org/abs/2607.25409v1",
+  "title": "Polaris: a flexible stellarator demonstration experiment with simple modular coils",
+  "first_seen": "2026-08-09"
+ },
+ "e82d4751f3f00f26": {
+  "url": "https://arxiv.org/abs/2607.25313v1",
+  "title": "Enhanced alpha channeling with spin-polarized fuel",
+  "first_seen": "2026-08-09"
+ },
+ "079089a76fd085a9": {
+  "url": "https://www.world-nuclear-news.org/articles/first-port-signs-up-to-us-initiative-on-maritime-smrs",
+  "title": "First port signs up to US initiative on maritime SMRs",
+  "first_seen": "2026-08-09"
+ },
+ "ecb9e902f97dbe92": {
+  "url": "https://www.world-nuclear-news.org/articles/uk-start-up-nuclear-turbines-unveils-novel-reactor-concept",
+  "title": "UK start-up Nuclear Turbines unveils novel reactor concept",
+  "first_seen": "2026-08-09"
+ },
+ "af54a5b7acf5a7da": {
+  "url": "https://www.world-nuclear-news.org/articles/prometheus-project-selected-for-federal-support",
+  "title": "Prometheus project selected for federal support",
+  "first_seen": "2026-08-09"
+ },
+ "6688fa326f3b41ef": {
+  "url": "https://www.world-nuclear-news.org/articles/triso-approval-haleu-pact-advance-us-nuclear-fuel",
+  "title": "TRISO approval, HALEU pact advance US nuclear fuel",
+  "first_seen": "2026-08-09"
+ },
+ "37c490da77dc1378": {
+  "url": "https://arxiv.org/abs/2607.24602v1",
+  "title": "Implementation and verification of the avalanche source in a 3D full-f particle-in-cell model of relativistic electrons for studies of tokamak disruptions",
+  "first_seen": "2026-08-09"
+ },
+ "b7e38a740655d4cb": {
+  "url": "https://arxiv.org/abs/2607.23895v2",
+  "title": "Spacecraft heat shield study in the DIII-D tokamak",
+  "first_seen": "2026-08-09"
+ },
+ "9ab1271d05fc20e6": {
+  "url": "https://arxiv.org/abs/2607.23528v1",
+  "title": "Implementation and first application of EMC3-EIRENE on DTT for assessing the heat load on the ICRH antenna",
+  "first_seen": "2026-08-09"
+ },
+ "e30f4ab18ef52c9a": {
+  "url": "https://arxiv.org/abs/2607.23400v1",
+  "title": "Comparative qualification of advanced plasma-facing materials for fusion pilot plants through public- and private-sector experiments in DIII-D",
+  "first_seen": "2026-08-09"
+ },
+ "5a42d71b87d9bfb2": {
+  "url": "https://www.iter.org/node/20687/defining-korean-contribution",
+  "title": "A defining Korean contribution",
+  "first_seen": "2026-08-09"
+ },
+ "0b6e600ba0180664": {
+  "url": "https://euro-fusion.org/eurofusion-news/successful-2026-eurofusion-integrated-modelling-in-person-team-meeting-at-culham/",
+  "title": "Successful 2026 EUROfusion Integrated Modelling In-Person Team Meeting at Culham",
+  "first_seen": "2026-08-09"
+ },
+ "8465275bd5c0b681": {
+  "url": "https://arxiv.org/abs/2607.22344v1",
+  "title": "First Observation of Fishbone-Driven Zonal Flows with Fine Reversed Structure in Tokamak Plasmas",
+  "first_seen": "2026-08-09"
+ },
+ "2e4f874af3069166": {
+  "url": "https://arxiv.org/abs/2607.22253v1",
+  "title": "Full 3D Maxwell solver for Inertial Electrostatic Confinement devices",
+  "first_seen": "2026-08-09"
+ },
+ "27097bef57130b29": {
+  "url": "https://arxiv.org/abs/2607.21723v1",
+  "title": "A Multi-Species Reactive-Boltzmann Formulation for Self-Consistent Kinetic Simulation of Burning Fusion Plasmas",
+  "first_seen": "2026-08-09"
+ },
+ "da27f24606c20e7d": {
+  "url": "https://arxiv.org/abs/2607.21407v1",
+  "title": "Cycle-Consistent and Uncertainty-Aware Neural Surrogates for Tokamak Edge Plasmas",
+  "first_seen": "2026-08-09"
+ },
+ "010fa67d757c1243": {
+  "url": "https://arxiv.org/abs/2607.21362v1",
+  "title": "Langmuir probe and infrared thermography measurements of wide and narrow heat flux profiles in the ST40 tokamak",
+  "first_seen": "2026-08-09"
+ },
+ "ca7168c14e9a943b": {
+  "url": "https://arxiv.org/abs/2607.18558v1",
+  "title": "The power exhaust constrained SPARC separatrix operational space",
+  "first_seen": "2026-08-09"
+ },
+ "7aa1eef67f248f7b": {
+  "url": "https://arxiv.org/abs/2607.17594v1",
+  "title": "CuCrZr heat-sink irradiation performance reveals new challenges for thermonuclear fusion reactors",
+  "first_seen": "2026-08-09"
+ },
+ "840e0dd766582e38": {
+  "url": "https://arxiv.org/abs/2607.16509v1",
+  "title": "Assessment of 0-D L-H Power Threshold Scaling and Regression Stability in DIII-D with Applied 3D Magnetic Fields",
+  "first_seen": "2026-08-09"
+ },
+ "d440b86169afbd1f": {
+  "url": "https://arxiv.org/abs/2607.15484v1",
+  "title": "Dependence of Momentum Transport on the Dominant Turbulence Regime in the DIII-D Tokamak",
+  "first_seen": "2026-08-09"
+ },
+ "9e754c4b3326a509": {
+  "url": "https://arxiv.org/abs/2607.15072v2",
+  "title": "Mitigation of Initial Transients in Total-f Gyrokinetic Turbulence Simulations Using Neoclassically Relaxed Distribution Function",
+  "first_seen": "2026-08-09"
+ },
+ "b7d06780b748f8b0": {
+  "url": "https://arxiv.org/abs/2607.14722v1",
+  "title": "Computational studies of giant edge islands and unpaired X-points in HSX and W7-X by manipulating coil currents",
+  "first_seen": "2026-08-09"
+ },
+ "3d0a9889d8afcb9f": {
+  "url": "https://arxiv.org/abs/2607.14496v1",
+  "title": "Parameter Scan of Multi-Fluid Equilibria in Rotating p-11B Plasmas: Effects on Fusion Power and Bremsstrahlung Losses",
+  "first_seen": "2026-08-09"
+ },
+ "cbf1dd568d5c9400": {
+  "url": "https://arxiv.org/abs/2607.13585v1",
+  "title": "Neutron-source fidelity for laser-driven D--D lithium-blanket tritium-breeding tests",
+  "first_seen": "2026-08-09"
+ },
+ "6ca46e577b914c3f": {
+  "url": "https://arxiv.org/abs/2607.13390v1",
+  "title": "Boronization-enabled I-mode on EAST tokamak with an expanded density window and favorable-configuration access",
+  "first_seen": "2026-08-09"
+ },
+ "0754aa9188a6d28c": {
+  "url": "https://physicsworld.com/a/private-investment-in-fusion-firms-jumps-by-4-5bn/",
+  "title": "Private investment in fusion firms jumps by $4.5bn",
+  "first_seen": "2026-08-09"
+ },
+ "b1c09a6afd0d9c1a": {
+  "url": "https://arxiv.org/abs/2607.12512v1",
+  "title": "First reduced model for integrated computations of helicon wave heating and current drive in magnetic fusion plasmas",
+  "first_seen": "2026-08-09"
+ },
+ "cfeab757d8cec972": {
+  "url": "https://arxiv.org/abs/2607.14146v1",
+  "title": "Optimized finite-$β$ tokamak-stellarator hybrid configurations achieved by planar dipole-field coils",
+  "first_seen": "2026-08-09"
+ },
+ "51d5c4ca411e1b9f": {
+  "url": "https://arxiv.org/abs/2607.11789v1",
+  "title": "Zonal-flow generation and saturation of electromagnetic ion-scale turbulence in tokamaks",
+  "first_seen": "2026-08-09"
+ },
+ "68ca3ecebacb5115": {
+  "url": "https://euro-fusion.org/eurofusion-news/new-facility-in-denmark-will-let-engineers-test-robots-in-handling-key-fusion-components/",
+  "title": "New facility in Denmark will let engineers test robots in handling key fusion components",
+  "first_seen": "2026-08-09"
+ },
+ "668421753e376240": {
+  "url": "https://physicsworld.com/a/antineutrino-detectors-could-spot-signs-that-a-fusion-reactor-is-producing-weapons-grade-plutonium/",
+  "title": "Antineutrino detectors could spot signs that a fusion reactor is producing weapons-grade plutonium",
+  "first_seen": "2026-08-09"
+ },
+ "39aa7fcf839e1442": {
+  "url": "https://euro-fusion.org/eurofusion-news/eurofusion-steps-up-to-lead-europes-biggest-science-conversation/",
+  "title": "EUROfusion steps up to lead Europe’s biggest science conversation",
+  "first_seen": "2026-08-09"
+ },
+ "1fc56371af170998": {
+  "url": "https://physicsworld.com/a/mass-spectrometry-delivers-fusion-insights/",
+  "title": "Mass spectrometry delivers fusion insights",
+  "first_seen": "2026-08-09"
+ }
+}
