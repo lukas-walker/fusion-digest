@@ -30,9 +30,17 @@ The routine is not code in this repo; it is instruction text in **[`ROUTINE.md`]
 that is pasted into a **Claude scheduled task**.
 
 - **Schedule:** 1st of every month, **08:00 Europe/Zurich**.
+- **Token-lean pipeline:** deterministic scripts do the fetching so the model never browses.
+  `pipeline/fetch_feeds.py` gathers candidates from feeds + arXiv into a compact JSON; the
+  model triages that; `pipeline/fetch_articles.py` extracts clean text for only the ≤5 chosen
+  stories; the model writes from those bundles. This cuts per-run token use by roughly an order
+  of magnitude versus letting the agent crawl the web.
+- **Incremental, gap-free:** state in `state/seen.json` + `state/last_run.txt` (committed each
+  run) lets the pipeline scan an overlapping window and dedup, so a story published early in a
+  month is never dropped at the boundary and never reported twice.
 - **Publish:** the task writes `YYYY/YYYY-MM.md` and prepends an entry to `index.md`, then
-  commits and pushes to `main` — most easily through the [`publish.sh`](publish.sh) helper. No
-  token is needed; the run is already authenticated to the repo via the GitHub App.
+  commits and pushes to `main` — through the [`publish.sh`](publish.sh) helper. No token is
+  needed; the run is already authenticated to the repo via the GitHub App.
 - **Notify:** a two-tier push via [ntfy.sh](https://ntfy.sh) — each group's headline plus a
   one-line significance note, linking to the published report. Quiet months notify anyway,
   and any publish failure fires a `warning` alert so nothing fails silently.
@@ -40,11 +48,16 @@ that is pasted into a **Claude scheduled task**.
 ## Repository layout
 
 ```
-index.md          running list of all editions, newest first (rendered as the site home)
-_config.yml        Jekyll config — Architect theme
-2026/2026-08.md    one file per month
-ROUTINE.md         the routine's full instruction text (paste into a scheduled task)
-publish.sh         helper: publish a month report + update the index in one call
+index.md                    running list of all editions, newest first (site home)
+_config.yml                  Jekyll config — Architect theme
+2026/2026-08.md              one file per month
+ROUTINE.md                   the routine's full instruction text (paste into a scheduled task)
+publish.sh                   helper: report + index + state, commit & push in one call
+pipeline/fetch_feeds.py      discovery: feeds + arXiv -> compact candidates.json (no LLM)
+pipeline/fetch_articles.py   deep dive: clean-text extraction for the ≤5 chosen stories
+pipeline/requirements.txt    feedparser, trafilatura, markitdown, pdfminer.six
+state/seen.json              dedup high-water mark (committed each run)
+state/last_run.txt           timestamp of the last successful run
 ```
 
 ## Configuration
@@ -59,8 +72,10 @@ publish.sh         helper: publish a month report + update the index in one call
 ### `publish.sh`
 
 ```bash
-./publish.sh <YYYY> <MM> report.md "<one-line teaser for the index>"
+./publish.sh <YYYY> <MM> report.md "<one-line teaser>" pipeline/out/candidates.json
 ```
 
-It writes the month report, prepends the index entry, commits, pushes to `main`, and sends an
-ntfy `warning` push if anything fails.
+It writes the month report, prepends the index entry, marks the run's candidates seen and
+advances `last_run` (the optional 5th arg), commits all of it, pushes to `main`, and sends an
+ntfy `warning` push if anything fails. The 5th arg is optional but recommended — it keeps the
+incremental dedup state honest.

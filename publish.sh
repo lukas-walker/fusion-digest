@@ -32,8 +32,13 @@ notify_failure() {
 fail() { echo "ERROR: $1" >&2; notify_failure "$1"; exit 1; }
 
 # --- args & preconditions ----------------------------------------------------
-[ "$#" -ge 3 ] || fail "usage: publish.sh <YYYY> <MM> <report.md> [teaser]"
+# Usage: publish.sh <YYYY> <MM> <report.md> [teaser] [candidates.json]
+# The optional 5th arg is pipeline/out/candidates.json — when given, every
+# candidate id from this run is marked seen and state/last_run.txt is bumped, so
+# the next run's incremental window never re-surfaces or drops these items.
+[ "$#" -ge 3 ] || fail "usage: publish.sh <YYYY> <MM> <report.md> [teaser] [candidates.json]"
 YEAR="$1"; MONTH="$(printf '%02d' "$((10#$2))")"; REPORT="$3"; TEASER="${4:-See the report.}"
+CANDIDATES="${5:-}"
 [ -f "$REPORT" ] || fail "report file not found: $REPORT"
 command -v python3 >/dev/null 2>&1 || fail "python3 required"
 
@@ -65,11 +70,29 @@ out = [l for l in out if l.strip() != "_No editions published yet._"]
 open(path, "w", encoding="utf-8").write("\n".join(out) + "\n")
 PY
 
-# --- 3. commit & push --------------------------------------------------------
+# --- 3. update incremental state (high-water mark) --------------------------
+# Mark this run's candidates seen and advance last_run, so late/back-dated items
+# are never re-reported and nothing is dropped across the month boundary.
+if [ -n "$CANDIDATES" ] && [ -f "$CANDIDATES" ]; then
+  CANDIDATES="$CANDIDATES" python3 - <<'PY'
+import datetime, json, os, pathlib
+cand = json.loads(open(os.environ["CANDIDATES"]).read())
+seen_path = pathlib.Path("state/seen.json")
+seen = json.loads(seen_path.read_text()) if seen_path.exists() else {}
+today = datetime.date.today().isoformat()
+for c in cand.get("candidates", []):
+    seen.setdefault(c["id"], {"url": c.get("link", ""), "title": c.get("title", ""), "first_seen": today})
+seen_path.write_text(json.dumps(seen, indent=1, ensure_ascii=False))
+pathlib.Path("state/last_run.txt").write_text(datetime.datetime.now(datetime.timezone.utc).isoformat())
+print(f"state: {len(seen)} articles seen", flush=True)
+PY
+fi
+
+# --- 4. commit & push --------------------------------------------------------
 git config user.email >/dev/null 2>&1 || git config user.email "fusion-digest@users.noreply.github.com"
 git config user.name  >/dev/null 2>&1 || git config user.name  "Fusion Digest"
 
-git add "$MONTH_PATH" index.md
+git add "$MONTH_PATH" index.md state/seen.json state/last_run.txt 2>/dev/null || git add "$MONTH_PATH" index.md
 if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
 git commit -q -m "Publish Fusion Digest ${MONTH_NAME}" || fail "git commit failed"
 
