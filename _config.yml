@@ -1,0 +1,13 @@
+theme: jekyll-theme-architect
+title: Fusion Digest
+description: >-
+  Monthly digest of scientific and engineering breakthroughs in nuclear fusion
+  for energy production — records, reactor designs, and engineering milestones,
+  filtered hard and summarised in depth.
+
+# Keep the archive tidy in the rendered site.
+exclude:
+  - ROUTINE.md
+  - publish.sh
+  - README.md
+  - .gitignore
