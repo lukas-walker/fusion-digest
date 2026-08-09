@@ -55,7 +55,7 @@ ROUTINE.md                   the routine's full instruction text (paste into a s
 publish.sh                   helper: report + index + state, commit & push in one call
 pipeline/fetch_feeds.py      discovery: feeds + arXiv -> compact candidates.json (no LLM)
 pipeline/fetch_articles.py   deep dive: clean-text extraction for the ≤5 chosen stories
-pipeline/requirements.txt    feedparser, trafilatura, markitdown, pdfminer.six
+pipeline/requirements.txt    OPTIONAL deps (feedparser, trafilatura, markitdown); stdlib fallback
 state/seen.json              dedup high-water mark (committed each run)
 state/last_run.txt           timestamp of the last successful run
 ```
