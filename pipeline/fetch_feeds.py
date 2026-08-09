@@ -7,8 +7,11 @@ overlap so late/back-dated items are never dropped), and deduplicated against
 state/seen.json. Writes a compact pipeline/out/candidates.json for the triage
 step. The model only ever sees this small JSON — never raw HTML.
 
-Network egress to the source hosts is required. Individual source failures are
-logged to stderr and skipped, so partial coverage still produces output.
+Runs on the Python standard library alone (urllib + ElementTree); if feedparser
+is installed it is used for slightly more robust parsing, but it is optional —
+so this works even when the environment's egress blocks PyPI. Only the source
+hosts need to be reachable. Individual source failures are logged to stderr and
+skipped, so partial coverage still produces output.
 
 Usage:
     python pipeline/fetch_feeds.py [--month YYYY-MM] [--overlap-days 7] [--max 300]
@@ -22,18 +25,23 @@ import html
 import json
 import re
 import sys
+import urllib.request
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 try:
-    import feedparser  # type: ignore
+    import feedparser  # optional; stdlib fallback below when absent
+    HAVE_FEEDPARSER = True
 except ImportError:
-    sys.exit("fetch_feeds.py needs feedparser — run: pip install -r pipeline/requirements.txt")
+    HAVE_FEEDPARSER = False
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "state"
 OUT = Path(__file__).resolve().parent / "out"
 SEEN_PATH = STATE / "seen.json"
 LAST_RUN_PATH = STATE / "last_run.txt"
+UA = "Mozilla/5.0 (FusionDigest research bot; +https://github.com/lukas-walker/fusion-digest)"
 
 # Best-known feed URLs. Unreachable or empty ones are skipped; adjust after the
 # first live run if a source has moved its feed.
@@ -73,12 +81,81 @@ def clean_text(s: str, limit: int = 500) -> str:
     return s[:limit]
 
 
-def entry_date(entry) -> dt.datetime | None:
-    for key in ("published_parsed", "updated_parsed"):
-        t = entry.get(key)
-        if t:
-            return dt.datetime(*t[:6], tzinfo=dt.timezone.utc)
-    return None
+def parse_date(raw: str) -> dt.datetime | None:
+    raw = (raw or "").strip()
+    if not raw:
+        return None
+    try:  # RFC 822, e.g. "Tue, 05 Aug 2026 12:00:00 GMT"
+        d = parsedate_to_datetime(raw)
+    except (TypeError, ValueError):
+        try:  # ISO 8601 / Atom, e.g. "2026-08-05T12:00:00Z"
+            d = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if d is not None and d.tzinfo is None:
+        d = d.replace(tzinfo=dt.timezone.utc)
+    return d
+
+
+def entries_feedparser(url: str) -> list[dict]:
+    feed = feedparser.parse(url)
+    if getattr(feed, "bozo", 0) and not feed.entries:
+        raise RuntimeError(getattr(feed, "bozo_exception", "parse error"))
+    out = []
+    for e in feed.entries:
+        when = None
+        for key in ("published_parsed", "updated_parsed"):
+            t = e.get(key)
+            if t:
+                when = dt.datetime(*t[:6], tzinfo=dt.timezone.utc)
+                break
+        out.append({
+            "link": e.get("link", ""),
+            "title": e.get("title", ""),
+            "summary": e.get("summary", e.get("description", "")),
+            "when": when,
+        })
+    return out
+
+
+def entries_stdlib(url: str) -> list[dict]:
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r:  # noqa: S310
+        data = r.read()
+    root = ET.fromstring(data)
+    for el in root.iter():  # strip XML namespaces so tags are bare
+        if "}" in el.tag:
+            el.tag = el.tag.split("}", 1)[1]
+
+    def field(item, *names) -> str:
+        for n in names:
+            el = item.find(n)
+            if el is not None and (el.text or el.get("href")):
+                return (el.text or el.get("href") or "").strip()
+        return ""
+
+    items = root.findall(".//item") or root.findall(".//entry")  # RSS or Atom
+    out = []
+    for it in items:
+        link = ""
+        le = it.find("link")
+        if le is not None:
+            link = (le.text or le.get("href") or "").strip()
+        if not link:
+            link = field(it, "id", "guid")
+        out.append({
+            "link": link,
+            "title": field(it, "title"),
+            "summary": field(it, "summary", "description", "content"),
+            "when": parse_date(field(it, "pubDate", "published", "updated", "date")),
+        })
+    return out
+
+
+def fetch_entries(url: str) -> list[dict]:
+    if HAVE_FEEDPARSER:
+        return entries_feedparser(url)
+    return entries_stdlib(url)
 
 
 def load_json(path: Path, default):
@@ -90,8 +167,7 @@ def load_json(path: Path, default):
 
 def prev_month_start(today: dt.date) -> dt.date:
     first = today.replace(day=1)
-    last_prev = first - dt.timedelta(days=1)
-    return last_prev.replace(day=1)
+    return (first - dt.timedelta(days=1)).replace(day=1)
 
 
 def main() -> int:
@@ -100,6 +176,8 @@ def main() -> int:
     ap.add_argument("--overlap-days", type=int, default=7)
     ap.add_argument("--max", type=int, default=300, help="cap on candidates emitted")
     args = ap.parse_args()
+
+    print(f"feedparser: {'yes' if HAVE_FEEDPARSER else 'no (stdlib fallback)'}", file=sys.stderr)
 
     now = dt.datetime.now(dt.timezone.utc)
     if args.month:
@@ -126,25 +204,24 @@ def main() -> int:
     candidates: dict[str, dict] = {}
     for source, url in {**FEEDS, "arXiv (plasm-ph)": ARXIV_FEED}.items():
         try:
-            feed = feedparser.parse(url)
+            entries = fetch_entries(url)
         except Exception as e:  # noqa: BLE001
             print(f"  ! {source}: {e}", file=sys.stderr)
             continue
-        if getattr(feed, "bozo", 0) and not feed.entries:
+        if not entries:
             print(f"  ! {source}: no entries ({url})", file=sys.stderr)
             continue
         kept = 0
-        for e in feed.entries:
-            link = e.get("link", "")
+        for e in entries:
+            link = e["link"]
             if not link:
                 continue
-            when = entry_date(e)
+            when = e["when"]
             if when and when < window_start:
                 continue  # too old for this window
-            title = clean_text(e.get("title", ""), 300)
-            summary = clean_text(e.get("summary", e.get("description", "")))
-            is_arxiv = source.startswith("arXiv")
-            if is_arxiv and not KEYWORDS.search(f"{title} {summary}"):
+            title = clean_text(e["title"], 300)
+            summary = clean_text(e["summary"])
+            if source.startswith("arXiv") and not KEYWORDS.search(f"{title} {summary}"):
                 continue  # unrelated plasma paper
             aid = art_id(link)
             if aid in seen or aid in candidates:

@@ -16,8 +16,12 @@ markdown bundles for the ≤5 stories you actually write up. **Never `WebFetch` 
 yourself** — run the scripts. **Do not substitute your own judgement for the editorial rules
 in Step 2 or the framing requirement in Step 5** — they are the whole point of this routine.
 
-Requires an environment with **open network egress** (the source sites + `ntfy.sh` must be
-reachable). PyPI is reachable for `pip install`.
+**Network requirements.** The environment must reach the **source sites** (physicsworld.com,
+phys.org, world-nuclear-news.org, iter.org, euro-fusion.org, export.arxiv.org, and the primary
+sources you follow — doi.org, science.org, nature.com, iopscience.iop.org, …) plus **`ntfy.sh`**.
+GitHub is always reachable via its own proxy. **PyPI is NOT required** — the pipeline runs on
+the Python standard library; the deps in `requirements.txt` only improve extraction quality if
+PyPI happens to be reachable.
 
 ---
 
@@ -25,7 +29,8 @@ reachable). PyPI is reachable for `pip install`.
 
 ```bash
 git checkout main && git pull origin main
-pip install -q -r pipeline/requirements.txt
+# Optional — better extraction if PyPI is reachable; harmless to skip (stdlib fallback):
+pip install -q -r pipeline/requirements.txt || echo "PyPI unavailable — using stdlib fallback"
 ```
 
 - Target month = the calendar month that just ended (you run on the 1st). It names the report
@@ -125,8 +130,11 @@ python pipeline/fetch_articles.py pipeline/out/selected.json
 ```
 
 Fetches each selected URL, extracts clean main-text (trafilatura for HTML, markitdown /
-pdfminer for PDFs), truncates, and writes one bundle per group into `pipeline/out/bundles/`.
-These bundles are the **only** article text you read.
+pdfminer for PDFs; a stdlib tag-strip fallback when those aren't installed), truncates, and
+writes one bundle per group into `pipeline/out/bundles/`. These bundles are the **only** article
+text you read. **Prefer an article / abstract landing-page URL over a raw `.pdf`** in
+`selected.json` — HTML extracts cleanly with zero dependencies, whereas PDFs need the optional
+libs.
 
 ## Step 5 — Write each group (LLM, reads the bundles)
 

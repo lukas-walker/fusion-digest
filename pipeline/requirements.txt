@@ -1,6 +1,15 @@
-# Fusion Digest pipeline dependencies (installed at run time; PyPI is reachable
-# even under the restricted egress policy).
-feedparser>=6.0        # RSS/Atom + arXiv API parsing (discovery)
-trafilatura>=1.6       # HTML main-text extraction (deep dive, news)
-markitdown>=0.0.1      # PDF/doc -> text for primary papers (optional but recommended)
-pdfminer.six>=20221105 # fallback PDF text extraction
+# Fusion Digest pipeline dependencies — ALL OPTIONAL.
+#
+# The pipeline runs on the Python standard library alone, so it works even when
+# the environment's egress blocks PyPI. Installing these only improves quality:
+#   - feedparser: more robust feed parsing (stdlib ElementTree used otherwise)
+#   - trafilatura: cleaner HTML main-text extraction (crude tag-strip otherwise)
+#   - markitdown / pdfminer.six: text from PDF primary papers (skipped otherwise —
+#     prefer an article/abstract landing-page URL over a raw PDF in that case)
+#
+# If PyPI is reachable:  pip install -r pipeline/requirements.txt
+# If not:                skip it — the scripts fall back automatically.
+feedparser>=6.0
+trafilatura>=1.6
+markitdown>=0.0.1
+pdfminer.six>=20221105
