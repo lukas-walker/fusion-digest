@@ -40,7 +40,7 @@ LAST_RUN_PATH = STATE / "last_run.txt"
 FEEDS = {
     "Physics World": "https://physicsworld.com/c/particle-nuclear/nuclear-fusion/feed/",
     "Phys.org (plasma)": "https://phys.org/rss-feed/physics-news/plasma-physics/",
-    "World Nuclear News": "https://world-nuclear-news.org/rss/news",
+    "World Nuclear News": "https://world-nuclear-news.org/rss",
     "ITER Newsline": "https://www.iter.org/whatsnew/rss",
     "EUROfusion": "https://euro-fusion.org/feed/",
 }
