@@ -30,8 +30,9 @@ The routine is not code in this repo; it is instruction text in **[`ROUTINE.md`]
 that is pasted into a **Claude scheduled task**.
 
 - **Schedule:** 1st of every month, **08:00 Europe/Zurich**.
-- **Publish:** the task writes `YYYY/YYYY-MM.md` and prepends an entry to `index.md` via the
-  GitHub contents API — most easily through the [`publish.sh`](publish.sh) helper.
+- **Publish:** the task writes `YYYY/YYYY-MM.md` and prepends an entry to `index.md`, then
+  commits and pushes to `main` — most easily through the [`publish.sh`](publish.sh) helper. No
+  token is needed; the run is already authenticated to the repo via the GitHub App.
 - **Notify:** a two-tier push via [ntfy.sh](https://ntfy.sh) — each group's headline plus a
   one-line significance note, linking to the published report. Quiet months notify anyway,
   and any publish failure fires a `warning` alert so nothing fails silently.
@@ -53,14 +54,13 @@ publish.sh         helper: publish a month report + update the index in one call
 | ntfy server / topic | `ntfy.sh` / `fusion-frontier-k3n8vq2p` |
 | GitHub Pages | Deploy from branch `main`, folder `/` (root) |
 | Theme | `jekyll-theme-architect` |
-| Publish auth | `GITHUB_TOKEN` env var (contents:write) used by `publish.sh` |
+| Publish auth | None — the run pushes to `main` via the GitHub App |
 
 ### `publish.sh`
 
 ```bash
-export GITHUB_TOKEN=<token with contents:write>
 ./publish.sh <YYYY> <MM> report.md "<one-line teaser for the index>"
 ```
 
-It fetches the existing file SHA where needed, writes the month report, prepends the index
-entry, and sends an ntfy `warning` push if anything fails.
+It writes the month report, prepends the index entry, commits, pushes to `main`, and sends an
+ntfy `warning` push if anything fails.

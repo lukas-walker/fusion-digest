@@ -187,29 +187,25 @@ _Run: <YYYY-MM-DD>_
 
 ## Step 7 — Publish to GitHub Pages
 
-Use the helper script `publish.sh` in the repo (it handles the SHA-fetch, the month file, the
-index update, and failure alerting in one call):
+This routine runs as a Claude session that is already authenticated to the repo via the
+GitHub App, so publishing is a plain `git` commit — **no token required**. Use the helper
+script `publish.sh` in the repo; it writes the month file, prepends the index entry, commits,
+pushes to `main`, and sends an ntfy failure alert if anything breaks — all in one call:
 
 ```bash
-export GITHUB_TOKEN=<token with contents:write on lukas-walker/fusion-digest>
 ./publish.sh <YYYY> <MM> report.md "<one-line teaser for the index>"
 ```
 
-If you cannot use the script, do it manually via the GitHub contents API over `api.github.com`
-(curl; the host is on the sandbox allowlist). Updating an existing file requires its current
-SHA — **GET the file first, then PUT with the SHA**:
+If you need to do it by hand instead of the script:
 
-1. **Write the month file** `YYYY/YYYY-MM.md`:
-   - `GET https://api.github.com/repos/lukas-walker/fusion-digest/contents/YYYY/YYYY-MM.md?ref=main`
-     → capture `sha` if it already exists.
-   - `PUT` the same path with `{message, content: <base64 of report>, branch: "main", sha?}`.
-2. **Prepend to `/index.md`**: GET it (capture `sha` and decode its base64 content), insert a
-   new entry line right after the `<!-- DIGESTS:START -->` marker (removing the
-   `_No editions published yet._` placeholder if present), then PUT it back with its `sha`.
-   Entry format:
+1. **Write the month file** `YYYY/YYYY-MM.md` (the report from Step 6).
+2. **Prepend to `index.md`**: insert a new entry line right after the `<!-- DIGESTS:START -->`
+   marker, removing the `_No editions published yet._` placeholder if present. Entry format:
    `- [<Month Year>](YYYY/YYYY-MM.html) — <one-line teaser>`
+3. `git add`, `git commit`, and `git push origin main`.
 
-Use `Authorization: Bearer $GITHUB_TOKEN` and `Accept: application/vnd.github+json`.
+Publishing to `main` is what triggers the GitHub Pages rebuild; the page goes live within a
+minute or two at `https://lukas-walker.github.io/fusion-digest/YYYY/YYYY-MM.html`.
 
 ---
 
