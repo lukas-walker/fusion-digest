@@ -18,5 +18,6 @@ PR are excluded. See **[ROUTINE.md](ROUTINE.md)** for the full editorial specifi
 ## Editions
 
 <!-- DIGESTS:START -->
+- [August 2026](2026/2026-08.html) — KSTAR closes the loop on real-time ELM control; new multi-machine scaling favors gentler QCE-regime ELMs for SPARC/ITER; TCV reaches reactor-relevant divertor heat fluxes
 - [July 2026](2026/2026-07.html) — JET's final D-T campaign sets a 69 MJ fusion energy record; ITER two-thirds assembled; EAST widens I-mode's density window
 <!-- DIGESTS:END -->

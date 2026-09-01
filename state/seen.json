@@ -648,5 +648,580 @@
   "url": "https://physicsworld.com/a/mass-spectrometry-delivers-fusion-insights/",
   "title": "Mass spectrometry delivers fusion insights",
   "first_seen": "2026-08-09"
+ },
+ "739dbded06eb3a9b": {
+  "url": "https://phys.org/news/2026-08-faint-infrared-insulator-metal-transition.html",
+  "title": "Faint far-infrared radiation drives a correlated insulator-to-metal transition in magic-angle graphene",
+  "first_seen": "2026-09-01"
+ },
+ "e9478f4f15fa5b87": {
+  "url": "https://phys.org/news/2026-08-crystal-reveals-joule-stabilizes-resistive.html",
+  "title": "Organic crystal reveals how Joule heating stabilizes resistive switching",
+  "first_seen": "2026-09-01"
+ },
+ "89eabb3c4242eef6": {
+  "url": "https://phys.org/news/2026-08-physicists-hall-effect.html",
+  "title": "Physicists take Hall effect in a new direction",
+  "first_seen": "2026-09-01"
+ },
+ "440bd14f5de58860": {
+  "url": "https://phys.org/news/2026-08-physicists-feynman-path.html",
+  "title": "Physicists finally put Feynman's path integral to the test",
+  "first_seen": "2026-09-01"
+ },
+ "ee065fbd473bdc7f": {
+  "url": "https://euro-fusion.org/eurofusion-news/how-digital-twins-could-boost-fusion-research/",
+  "title": "How digital twins could boost fusion research",
+  "first_seen": "2026-09-01"
+ },
+ "181de893b923a5f7": {
+  "url": "https://phys.org/news/2026-08-hollow-core-fiber-platform-quantum.html",
+  "title": "Hollow-core fiber platform could help different quantum technologies connect",
+  "first_seen": "2026-09-01"
+ },
+ "d3545a43116f4f9c": {
+  "url": "https://phys.org/news/2026-08-plastic-welds-retain-molecular-memory.html",
+  "title": "How plastic welds retain a molecular 'memory' of their former surfaces to strengthen pipe joints",
+  "first_seen": "2026-09-01"
+ },
+ "8b300a706515728d": {
+  "url": "https://phys.org/news/2026-08-diamond-clock-combines-temperature-driven.html",
+  "title": "Diamond clock combines two signals to cut temperature-driven drift",
+  "first_seen": "2026-09-01"
+ },
+ "119e11f28d706587": {
+  "url": "https://phys.org/news/2026-08-reveals-internal-motion-electron-crystals.html",
+  "title": "Light reveals internal motion in electron crystals and can trigger their melting",
+  "first_seen": "2026-09-01"
+ },
+ "fb8a05abd9faea5b": {
+  "url": "https://www.world-nuclear-news.org/articles/newcleo-led-consortium-to-develop-floating-nuclear-plant",
+  "title": "Newcleo-led consortium to develop floating nuclear plant",
+  "first_seen": "2026-09-01"
+ },
+ "14a999b50fa3358a": {
+  "url": "https://www.world-nuclear-news.org/articles/welding-of-akkuyu-2s-primary-circuit-completed",
+  "title": "Welding of Akkuyu 2's primary circuit completed",
+  "first_seen": "2026-09-01"
+ },
+ "47dd06d3671c3df1": {
+  "url": "https://www.world-nuclear-news.org/articles/outer-dome-hoisted-at-xudabao-unit-1",
+  "title": "Outer dome hoisted at Xudabao unit 1",
+  "first_seen": "2026-09-01"
+ },
+ "69b7789bc4ddbc24": {
+  "url": "https://www.world-nuclear-news.org/articles/ampera-llnl-team-up-for-triso-fuel-development",
+  "title": "Ampera, LLNL team up for TRISO fuel development",
+  "first_seen": "2026-09-01"
+ },
+ "baf01374b0c906d8": {
+  "url": "https://www.world-nuclear-news.org/articles/testing-under-way-at-atucha-twos-dry-storage-facility",
+  "title": "Testing under way for Atucha 2's dry storage facility equipment",
+  "first_seen": "2026-09-01"
+ },
+ "112e87e136c3c0dd": {
+  "url": "https://arxiv.org/abs/2608.28763v1",
+  "title": "ELMO: An Uncertainty-Aware Simulation-to-Surrogate Workflow for Fast Pedestal Linear-Stability Prediction",
+  "first_seen": "2026-09-01"
+ },
+ "072eb4ba0dfe7b6c": {
+  "url": "https://arxiv.org/abs/2608.28367v1",
+  "title": "Electromagnetic pressure-gradient-driven instabilities with moderate high mode numbers in tokamak plasmas",
+  "first_seen": "2026-09-01"
+ },
+ "2ceffd9faea0bcd4": {
+  "url": "https://arxiv.org/abs/2608.28224v1",
+  "title": "Towards Stellarator Geometry Optimisation for Nuclear Fusion",
+  "first_seen": "2026-09-01"
+ },
+ "51c06acdc56db0ed": {
+  "url": "https://arxiv.org/abs/2608.27845v1",
+  "title": "Reinforcement-learning control of turbulence transition in the modified Hasegawa-Wakatani system",
+  "first_seen": "2026-09-01"
+ },
+ "ba6543ba16a87f68": {
+  "url": "https://phys.org/news/2026-08-fast-error-prone-ai-decades.html",
+  "title": "Fast but error-prone AI assists in solving a decades-old fluid mechanics problem in five weeks",
+  "first_seen": "2026-09-01"
+ },
+ "997815b68fea0ac5": {
+  "url": "https://phys.org/news/2026-08-atlas-cms-narrow-twin-higgs.html",
+  "title": "ATLAS and CMS narrow in on twin Higgs production",
+  "first_seen": "2026-09-01"
+ },
+ "c824a7762ca19319": {
+  "url": "https://phys.org/news/2026-08-physics-kiiking-estonia-extreme-sport.html",
+  "title": "The physics of kiiking, Estonia's extreme sport of swinging",
+  "first_seen": "2026-09-01"
+ },
+ "970b0a5a573e7f6d": {
+  "url": "https://phys.org/news/2026-08-oxygen-collisions-reveal-quarkgluon-approaches.html",
+  "title": "Oxygen collisions reveal how quark–gluon matter approaches equilibrium",
+  "first_seen": "2026-09-01"
+ },
+ "98542b97af261b5f": {
+  "url": "https://phys.org/news/2026-08-deep-underground-supercdms-dark-cryogenic.html",
+  "title": "Deep underground, SuperCDMS begins hunting light dark matter with 24 cryogenic crystals",
+  "first_seen": "2026-09-01"
+ },
+ "1a06d0585a289b39": {
+  "url": "https://phys.org/news/2026-08-optical-magnus-effect-sharpen-quantum.html",
+  "title": "First observation of optical Magnus effect could sharpen quantum computer control",
+  "first_seen": "2026-09-01"
+ },
+ "cd97503ecd09a364": {
+  "url": "https://phys.org/news/2026-08-geomimicry-framework-sustainable-materials.html",
+  "title": "Geomimicry offers a new framework for engineering sustainable materials",
+  "first_seen": "2026-09-01"
+ },
+ "fa7b16fe459067db": {
+  "url": "https://phys.org/news/2026-08-simple-neural-networks-field-theory.html",
+  "title": "Going beyond simple models of neural networks: Extended mean-field theory offers a better approach",
+  "first_seen": "2026-09-01"
+ },
+ "be00881e97d78bf2": {
+  "url": "https://phys.org/news/2026-08-particles-reveal-critical-scaling-dimensional.html",
+  "title": "Light particles reveal critical scaling in a two-dimensional photon gas",
+  "first_seen": "2026-09-01"
+ },
+ "fe91a0361a6354ee": {
+  "url": "https://www.world-nuclear-news.org/articles/Fortums-NuCore-Energi-applies-fifth-application-for-swedish-state-support-for-new-nuclear",
+  "title": "Fortum's NuCore Energi applies for Swedish state support for new nuclear",
+  "first_seen": "2026-09-01"
+ },
+ "b8f541c87b6ba067": {
+  "url": "https://www.world-nuclear-news.org/articles/us-army-selects-five-microreactor-vendors-to-power-bases",
+  "title": "US Army selects five microreactor techs for deployment",
+  "first_seen": "2026-09-01"
+ },
+ "410155385e6bf913": {
+  "url": "https://www.world-nuclear-news.org/articles/multinational-support-for-atlas-mritime-nuclear-initiative",
+  "title": "Multinational support for ATLAS maritime nuclear initiative",
+  "first_seen": "2026-09-01"
+ },
+ "05210aa17a9beae6": {
+  "url": "https://www.world-nuclear-news.org/articles/holtecs-smr-300-test-facility-taking-shape-at-inl",
+  "title": "Holtec's SMR-300 test facility taking shape at INL",
+  "first_seen": "2026-09-01"
+ },
+ "0e7dad20a600554b": {
+  "url": "https://www.world-nuclear-news.org/articles/drilling-of-deposition-holes-starts-at-onkalo",
+  "title": "Drilling of deposition holes starts at Onkalo",
+  "first_seen": "2026-09-01"
+ },
+ "98819c9612c23c67": {
+  "url": "https://arxiv.org/abs/2608.27578v2",
+  "title": "Towards Large-Scale Heterogeneous Data Organization for Scientific Foundation Models: A Nuclear Fusion Case Study",
+  "first_seen": "2026-09-01"
+ },
+ "7f201fe3b9e8da0c": {
+  "url": "https://phys.org/news/2026-08-ramped-fields-robust-entanglement-ion.html",
+  "title": "Ramped fields create more robust entanglement between trapped-ion qubits",
+  "first_seen": "2026-09-01"
+ },
+ "8591c804fdbdacc2": {
+  "url": "https://phys.org/news/2026-08-vibrations-neighboring-atoms-atomic-scale.html",
+  "title": "Observing the vibrations of neighboring atoms with an atomic-scale double slit",
+  "first_seen": "2026-09-01"
+ },
+ "dc70abaecdd8c8a8": {
+  "url": "https://phys.org/news/2026-08-narrow-ultrasonic-enables-stable-3d.html",
+  "title": "Narrow ultrasonic beam enables stable 3D levitation six times farther than before",
+  "first_seen": "2026-09-01"
+ },
+ "f5a38574354fe964": {
+  "url": "https://phys.org/news/2026-08-molecule-photon-entanglement-imperceptible-recoil.html",
+  "title": "One molecule, one photon: Entanglement makes an imperceptible recoil measurable",
+  "first_seen": "2026-09-01"
+ },
+ "01bd43010a251a9a": {
+  "url": "https://phys.org/news/2026-08-high-magnetic-fields-revive-superconductivity.html",
+  "title": "High magnetic fields revive superconductivity in nickelates",
+  "first_seen": "2026-09-01"
+ },
+ "120919b9a091398a": {
+  "url": "https://phys.org/news/2026-08-hyperdoped-silicon-photodiode-advances-short.html",
+  "title": "Hyperdoped silicon photodiode advances short-wave infrared detection at room temperature",
+  "first_seen": "2026-09-01"
+ },
+ "bfeb90c7964fbaad": {
+  "url": "https://phys.org/news/2026-08-quantum-method-broadens-spectroscopy-hard.html",
+  "title": "New quantum computing method broadens spectroscopy of hard-to-model matter",
+  "first_seen": "2026-09-01"
+ },
+ "43bf1e53adf5c943": {
+  "url": "https://www.world-nuclear-news.org/articles/second-epr-site-authorised-for-site-preparations",
+  "title": "Second EPR site authorised for site preparations",
+  "first_seen": "2026-09-01"
+ },
+ "50f7e4507c1b8d55": {
+  "url": "https://www.world-nuclear-news.org/articles/rosatom-and-egypt-discuss-more-potential-units",
+  "title": "Rosatom and Egypt discussing more potential units",
+  "first_seen": "2026-09-01"
+ },
+ "ecb93450f88a9661": {
+  "url": "https://www.world-nuclear-news.org/articles/reactor-technology-selection-process-progresses-in-netherlands",
+  "title": "Reactor technology selection process progresses in Netherlands",
+  "first_seen": "2026-09-01"
+ },
+ "53095ff77af64c2f": {
+  "url": "https://www.world-nuclear-news.org/articles/niger-awards-arlit-uranium-mining-permit-to-state-owned-company",
+  "title": "Niger awards Arlit uranium mining permit to state-owned company",
+  "first_seen": "2026-09-01"
+ },
+ "1c710dae601bbc74": {
+  "url": "https://www.world-nuclear-news.org/articles/pacific-fusion-breaks-ground-on-new-mexico-facility",
+  "title": "Pacific Fusion breaks ground on New Mexico facility",
+  "first_seen": "2026-09-01"
+ },
+ "dcac20e7e284d88c": {
+  "url": "https://euro-fusion.org/eurofusion-news/how-nuclear-fusion-is-helping-frozen-food-processing/",
+  "title": "How nuclear fusion is helping frozen food processing",
+  "first_seen": "2026-09-01"
+ },
+ "afbdd47603234f0f": {
+  "url": "https://arxiv.org/abs/2608.26024v1",
+  "title": "First Plasma Commissioning and Operational Highlights from India's First Spherical Tokamak at IPR",
+  "first_seen": "2026-09-01"
+ },
+ "b8fe601780336fbc": {
+  "url": "https://arxiv.org/abs/2608.25945v1",
+  "title": "Machine learning methods for modelling local, linear gyrokinetic simulations of MAST-U pedestal turbulence",
+  "first_seen": "2026-09-01"
+ },
+ "b3d4d2719b359c55": {
+  "url": "https://arxiv.org/abs/2608.27490v1",
+  "title": "Anisotropic Maxwell neural operator for rapid parametric full-wave modelling of ion cyclotron resonance heating",
+  "first_seen": "2026-09-01"
+ },
+ "7372d25259852bd2": {
+  "url": "https://arxiv.org/abs/2608.26216v1",
+  "title": "Real-time virtual circuits for plasma shape control via neural network emulators: integration and testing in the MAST-U PCS",
+  "first_seen": "2026-09-01"
+ },
+ "f0f89ea89b810739": {
+  "url": "https://phys.org/news/2026-08-duty-quantum.html",
+  "title": "Sound waves do double duty, carrying and protecting quantum information",
+  "first_seen": "2026-09-01"
+ },
+ "1f115d69ef6ded15": {
+  "url": "https://phys.org/news/2026-08-simulations-reveal-asymmetric-diffusion-magnetic.html",
+  "title": "Simulations reveal asymmetric diffusion of magnetic skyrmions through an off-center gate",
+  "first_seen": "2026-09-01"
+ },
+ "eb11b3485286d728": {
+  "url": "https://phys.org/news/2026-08-plutonium-probe-universe-magneto-advances.html",
+  "title": "Using plutonium to probe the universe: Magneto‑ν experiment advances dark matter and neutrino research",
+  "first_seen": "2026-09-01"
+ },
+ "67805e083063477d": {
+  "url": "https://phys.org/news/2026-08-exact-sharpen-view-atomic-nuclei.html",
+  "title": "Exact calculations sharpen view of atomic nuclei",
+  "first_seen": "2026-09-01"
+ },
+ "c01d917244de7c65": {
+  "url": "https://phys.org/news/2026-08-chemical-physicists-quantitatively-electron-interactions.html",
+  "title": "Chemical physicists quantitatively model electron interactions in real quantum materials",
+  "first_seen": "2026-09-01"
+ },
+ "bd85b43ffa39a70a": {
+  "url": "https://phys.org/news/2026-08-bright-ideas-quantum-emitters.html",
+  "title": "Bright ideas accelerate the hunt for quantum emitters",
+  "first_seen": "2026-09-01"
+ },
+ "cb7cbab891b972c7": {
+  "url": "https://www.world-nuclear-news.org/articles/xudabao-control-room-simulator-commissioned",
+  "title": "Xudabao control room simulator commissioned",
+  "first_seen": "2026-09-01"
+ },
+ "89057a22f180f6f3": {
+  "url": "https://www.world-nuclear-news.org/articles/myanmar-smr-site-work-could-start-in-2027",
+  "title": "Myanmar SMR site work 'could start in 2027'",
+  "first_seen": "2026-09-01"
+ },
+ "60eb265426a29a10": {
+  "url": "https://www.world-nuclear-news.org/articles/criticality-testing-milestone-for-westinghouses-evinci-microreactor",
+  "title": "Criticality testing milestone for Westinghouse's eVinci reactor",
+  "first_seen": "2026-09-01"
+ },
+ "352ef7176cc88393": {
+  "url": "https://www.world-nuclear-news.org/articles/core-power-teams-up-with-us-administration-on-maritime-nuclear",
+  "title": "Core Power teams up with US Administration on maritime nuclear",
+  "first_seen": "2026-09-01"
+ },
+ "6ca367dd484ebc37": {
+  "url": "https://www.world-nuclear-news.org/articles/blykalla-submits-second-smr-plant-application",
+  "title": "Blykalla submits second SMR plant application",
+  "first_seen": "2026-09-01"
+ },
+ "7330ef1d38dfd9ad": {
+  "url": "https://arxiv.org/abs/2608.24012v1",
+  "title": "First-Principles Simulation of Electron-Ion Collisional Transport in Magnetized and Unmagnetized Plasmas",
+  "first_seen": "2026-09-01"
+ },
+ "530d0657449d5889": {
+  "url": "https://arxiv.org/abs/2608.23976v2",
+  "title": "An Inverse Grad-Shafranov Neural Network Approach to Tokamak Magnetic Control",
+  "first_seen": "2026-09-01"
+ },
+ "f9ba0dafc0552d33": {
+  "url": "https://www.world-nuclear-news.org/articles/hungary-plans-new-climate-law-as-paks-ramps-up",
+  "title": "Hungary plans new climate law, as Paks ramps up",
+  "first_seen": "2026-09-01"
+ },
+ "bb7265df0e2e399b": {
+  "url": "https://www.world-nuclear-news.org/articles/reactors-installed-on-nuclear-powered-icebreaker-leningrad",
+  "title": "Reactors installed on nuclear-powered icebreaker Leningrad",
+  "first_seen": "2026-09-01"
+ },
+ "6247520f006dac71": {
+  "url": "https://www.world-nuclear-news.org/articles/new-realities-for-kazatomprom-as-demand-accelerates",
+  "title": "'New realities' for Kazatomprom as demand accelerates",
+  "first_seen": "2026-09-01"
+ },
+ "463fee659fa77fc7": {
+  "url": "https://www.world-nuclear-news.org/articles/atomic-eagle-reaches-agreement-on-niger-uranium-project",
+  "title": "Atomic Eagle reaches agreement on Niger uranium project",
+  "first_seen": "2026-09-01"
+ },
+ "f5feec02ee4f44d7": {
+  "url": "https://euro-fusion.org/eurofusion-news/jt-60sa-experiment-team-and-eurofusion-researchers-advance-preparations-for-the-next-campaign/",
+  "title": "JT-60SA Experiment Team and EUROfusion researchers advance preparations for the next campaign",
+  "first_seen": "2026-09-01"
+ },
+ "cb158451eb9c4158": {
+  "url": "https://arxiv.org/abs/2608.23217v1",
+  "title": "AI Surrogate Modeling for Real-Time Tokamak Equilibrium Prediction: Benchmarking Neural Architectures and Validation on EXL-50U",
+  "first_seen": "2026-09-01"
+ },
+ "f587ae0fe6758462": {
+  "url": "https://arxiv.org/abs/2608.22677v1",
+  "title": "On the feasibility of model-based feedback control of vertical instability growth rate using out-vessel coils in ARC-like scenarios",
+  "first_seen": "2026-09-01"
+ },
+ "f96dc2dd1299081d": {
+  "url": "https://arxiv.org/abs/2608.22515v1",
+  "title": "Interpretable statistical feature engineering for early disruption prediction in the short pulse ADITYA tokamak",
+  "first_seen": "2026-09-01"
+ },
+ "706b632846be95cb": {
+  "url": "https://www.world-nuclear-news.org/articles/doosan-enerbility-contracted-for-natrium-components",
+  "title": "Doosan Enerbility contracted for Natrium components",
+  "first_seen": "2026-09-01"
+ },
+ "4ca140909bfba804": {
+  "url": "https://www.world-nuclear-news.org/articles/blue-ghost-to-carry-nuclear-power-source-to-the-moon",
+  "title": "Blue Ghost to carry nuclear power source to the Moon",
+  "first_seen": "2026-09-01"
+ },
+ "77b831b596cfdd34": {
+  "url": "https://www.world-nuclear-news.org/articles/russia-plans-to-add-30-gw-nuclear-capacity-expand-exports",
+  "title": "Russia plans to add 30 GW nuclear capacity, expand exports",
+  "first_seen": "2026-09-01"
+ },
+ "7f53cc499c7aeef6": {
+  "url": "https://www.world-nuclear-news.org/articles/iaea-project-focuses-on-testing-of-nuclear-fuels-in-research-reactors",
+  "title": "IAEA project focuses on research reactor testing of fuels and materials",
+  "first_seen": "2026-09-01"
+ },
+ "26e806417f48cd17": {
+  "url": "https://www.world-nuclear-news.org/articles/ur-energy-makes-first-shipment-from-wyoming-uranium-project",
+  "title": "Ur-Energy makes first shipment from Wyoming uranium project",
+  "first_seen": "2026-09-01"
+ },
+ "4743c92aa3e2a645": {
+  "url": "https://arxiv.org/abs/2608.21611v1",
+  "title": "AXUV synthetic diagnostic for ASDEX Upgrade and its application for SPI simulations",
+  "first_seen": "2026-09-01"
+ },
+ "5f5cfb55f0c2b93b": {
+  "url": "https://arxiv.org/abs/2608.21179v1",
+  "title": "First step toward multi machine ELM energy scalings and extrapolations to SPARC and ITER",
+  "first_seen": "2026-09-01"
+ },
+ "fd9c9832a1d79e53": {
+  "url": "https://arxiv.org/abs/2608.20901v1",
+  "title": "Reinforcement learning for vertical position control on the EXL-50U spherical tokamak",
+  "first_seen": "2026-09-01"
+ },
+ "a0053cc165b00bb0": {
+  "url": "https://arxiv.org/abs/2608.20834v1",
+  "title": "Advantage-level Aggregation Reinforcement Learning for X-point Target Magnetic Configuration Control in an EXL-50U Experiment-Calibrated Simulation Environment",
+  "first_seen": "2026-09-01"
+ },
+ "b988ff5588bc3dc4": {
+  "url": "https://arxiv.org/abs/2608.20684v1",
+  "title": "Power-law-anchored residual learning for H-mode energy confinement time in tokamaks: interpolation and parameter-defined extrapolation",
+  "first_seen": "2026-09-01"
+ },
+ "7eee5250ebb24615": {
+  "url": "https://arxiv.org/abs/2608.20652v1",
+  "title": "Zero-dimensional multi-physics-constrained parameter design and optimization for advanced quasi-isodynamic stellarators",
+  "first_seen": "2026-09-01"
+ },
+ "ef63e4cf2321d8f9": {
+  "url": "https://www.world-nuclear-news.org/articles/second-us-port-to-explore-nuclear-maritime-technologies",
+  "title": "Second US port to explore nuclear maritime technologies",
+  "first_seen": "2026-09-01"
+ },
+ "6fae820ba058dc1d": {
+  "url": "https://www.world-nuclear-news.org/articles/bruce-power-gets-go-ahead-for-isotope-processing",
+  "title": "Bruce Power gets go-ahead for isotope processing",
+  "first_seen": "2026-09-01"
+ },
+ "2f25b2e2f8018486": {
+  "url": "https://www.world-nuclear-news.org/articles/further-chinese-order-for-doosan-enerbility-forgings",
+  "title": "Further Chinese order for Doosan Enerbility forgings",
+  "first_seen": "2026-09-01"
+ },
+ "5cb2681b54e21d83": {
+  "url": "https://www.world-nuclear-news.org/articles/atomic-canyon-launches-virtual-assistant-for-us-nuclear-fleet",
+  "title": "Atomic Canyon launches virtual assistant for US nuclear fleet",
+  "first_seen": "2026-09-01"
+ },
+ "ac4dfb0d29720d8d": {
+  "url": "https://arxiv.org/abs/2608.20042v1",
+  "title": "Symmetry-agnostic stellarators for collisionless confinement",
+  "first_seen": "2026-09-01"
+ },
+ "f1def3414b906f7b": {
+  "url": "https://arxiv.org/abs/2608.23604v1",
+  "title": "Gas release from metals under irradiation with elliptic Gaussian laser beam during LID-QMS analysis",
+  "first_seen": "2026-09-01"
+ },
+ "16b28ffbcf5c6fd0": {
+  "url": "https://www.world-nuclear-news.org/articles/passive-safety-module-installed-at-zhangzhou-4",
+  "title": "Passive safety module installed at Zhangzhou 4",
+  "first_seen": "2026-09-01"
+ },
+ "f7859fc50c06efc5": {
+  "url": "https://www.world-nuclear-news.org/articles/urenco-breaks-ground-for-new-enrichment-capacity",
+  "title": "Urenco breaks ground for new enrichment capacity",
+  "first_seen": "2026-09-01"
+ },
+ "4fbe91db79225cec": {
+  "url": "https://www.world-nuclear-news.org/articles/regulatory-approval-for-expansion-of-chernobyl-waste-facility",
+  "title": "Regulatory approval for expansion of Chernobyl waste facility",
+  "first_seen": "2026-09-01"
+ },
+ "48ac762ff60a3777": {
+  "url": "https://www.world-nuclear-news.org/articles/immersive-environment-to-accelerate-uk-nuclear-decommissioning",
+  "title": "Immersive environment to accelerate UK nuclear decommissioning",
+  "first_seen": "2026-09-01"
+ },
+ "53bac36f0caf2255": {
+  "url": "https://arxiv.org/abs/2608.19446v1",
+  "title": "Determining neutral fueling response to RMPs in MAST using a multi-reservoir particle balance model and EMC3 EIRENE",
+  "first_seen": "2026-09-01"
+ },
+ "849402127022cedd": {
+  "url": "https://arxiv.org/abs/2608.18939v1",
+  "title": "High-power TCV scenario for conventional and alternative divertor studies",
+  "first_seen": "2026-09-01"
+ },
+ "36a5f1e4e5d38b99": {
+  "url": "https://www.world-nuclear-news.org/articles/kaleidos-microreactor-begins-journey-to-idaho",
+  "title": "Kaleidos microreactor begins journey to Idaho",
+  "first_seen": "2026-09-01"
+ },
+ "9cb4aa69fccd0400": {
+  "url": "https://www.world-nuclear-news.org/articles/fanco-advances-engagement-with-regulator-on-haleu-plant",
+  "title": "FANCO advances engagement with regulator on HALEU plant",
+  "first_seen": "2026-09-01"
+ },
+ "5fcc5ca4cd7ecc9a": {
+  "url": "https://www.world-nuclear-news.org/articles/singapore-china-agree-to-nuclear-cooperation",
+  "title": "Singapore, China agree to nuclear cooperation",
+  "first_seen": "2026-09-01"
+ },
+ "99a168ccc7b54b0e": {
+  "url": "https://www.world-nuclear-news.org/articles/detritiation-facility-reopens-at-culham",
+  "title": "Detritiation facility reopens at Culham",
+  "first_seen": "2026-09-01"
+ },
+ "20e31afdec26e584": {
+  "url": "https://arxiv.org/abs/2608.18325v1",
+  "title": "Neural network predictions of plasma confinement loss in Wendelstein 7-X pellet-fueled discharges",
+  "first_seen": "2026-09-01"
+ },
+ "cb6394a78da8dd3a": {
+  "url": "https://arxiv.org/abs/2608.17839v1",
+  "title": "Control of Magnetic Reconnection in High Energy Density Plasmas",
+  "first_seen": "2026-09-01"
+ },
+ "0fae01ef3fa6f1c4": {
+  "url": "https://arxiv.org/abs/2608.17418v1",
+  "title": "Sub-Second Collisionless Gyrokinetic Eigenvalue Solutions via Orbit-Invariant Decomposition",
+  "first_seen": "2026-09-01"
+ },
+ "3d17f0f2e56cd305": {
+  "url": "https://arxiv.org/abs/2608.17332v1",
+  "title": "The FLARE Facility",
+  "first_seen": "2026-09-01"
+ },
+ "60beffcddff76003": {
+  "url": "https://arxiv.org/abs/2608.19259v2",
+  "title": "Real-time feedback control of ELM frequency using divertor gas puffing and its effects on tungsten-induced radiation and plasma performance in KSTAR",
+  "first_seen": "2026-09-01"
+ },
+ "97b39a27c75bb03b": {
+  "url": "https://arxiv.org/abs/2608.15753v1",
+  "title": "Hybrid kinetic-MHD simulation on the formation of runaway electron current plateau during a current quench process",
+  "first_seen": "2026-09-01"
+ },
+ "93dfec21e85ce23d": {
+  "url": "https://arxiv.org/abs/2608.15493v1",
+  "title": "Minimum-q induced alternation between infernal modes and EP-driven modes in advanced tokamak configurations",
+  "first_seen": "2026-09-01"
+ },
+ "e58c62e676bc1aca": {
+  "url": "https://physicsworld.com/a/researchers-propose-economic-q-metric-for-judging-fusion-power-plant-viability/",
+  "title": "Researchers propose ‘economic Q’ metric for judging fusion power plant viability",
+  "first_seen": "2026-09-01"
+ },
+ "c7ad1ed8d1eb95bc": {
+  "url": "https://arxiv.org/abs/2608.12963v1",
+  "title": "Scalable production of nuclear battery alpha emitters using fusion neutrons",
+  "first_seen": "2026-09-01"
+ },
+ "1eed1a9ec8603cd9": {
+  "url": "https://arxiv.org/abs/2608.12551v1",
+  "title": "Monoenergetic acceleration of charge-neutralized ion bunches to GeV-scale energies by the combination of a high-current electron beam and an ionization front",
+  "first_seen": "2026-09-01"
+ },
+ "2111330c4c7797d3": {
+  "url": "https://arxiv.org/abs/2608.11058v1",
+  "title": "Machine-learning surrogate models for nonlinear energetic-particle transport predictions in ITER",
+  "first_seen": "2026-09-01"
+ },
+ "54a35aa6a6e1130c": {
+  "url": "https://arxiv.org/abs/2608.16938v1",
+  "title": "Data-Driven Generation of Compact Quasi-Isodynamic Stellarators",
+  "first_seen": "2026-09-01"
+ },
+ "b9627682c0111064": {
+  "url": "https://arxiv.org/abs/2608.10124v1",
+  "title": "Steady state, core, operational optimization of an ARC-like tokamak via plasma composition and shape",
+  "first_seen": "2026-09-01"
+ },
+ "3e325cf8ed281189": {
+  "url": "https://arxiv.org/abs/2608.08649v1",
+  "title": "Transitional evolution of the wave dispersion relation during helicon discharge ignition: an analytical theory from vacuum to steady operation",
+  "first_seen": "2026-09-01"
+ },
+ "072b9bf396684360": {
+  "url": "https://arxiv.org/abs/2608.07466v1",
+  "title": "Characterization of a prototype parallel-plate $^{238}$U fission chamber with DD and DT fusion neutron sources",
+  "first_seen": "2026-09-01"
+ },
+ "21ebd545294cb3e2": {
+  "url": "https://arxiv.org/abs/2608.07165v1",
+  "title": "Electron-Scale-Driven Turbulence by Negative-Density-Gradient in NSTX",
+  "first_seen": "2026-09-01"
+ },
+ "8880a0bcb9495923": {
+  "url": "https://arxiv.org/abs/2608.06764v1",
+  "title": "Linear and nonlinear benchmark of gyrokinetic simulation of energetic particle driven toroidal Alfven eigenmodes in ITPA TAE benchmark case",
+  "first_seen": "2026-09-01"
  }
 }
